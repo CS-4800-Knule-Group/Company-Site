@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 import Records from './Pages/Records.jsx'
 import Header from './Components/Header.jsx'
+import About from './Pages/About.jsx'
 
 const Layout = () => {
   return (
@@ -27,7 +28,12 @@ const router = createBrowserRouter([{
     {
       path: "/records",
       element: <Records/>,
+    },
+    {
+      path: "/about",
+      element: <About/>,
     }
+
   ]
   
 }])
