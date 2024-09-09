@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+}
+
+
+
+
+
+.logo {
+    height: 40px;
+}
+
+.top-links {
+    display: flex;
+    gap: 15px;
+}
+
+.top-links a {
+    text-decoration: none;
+    color: #e1e1e1;
+    font-size: 16px;
+}
+
+.top-links a:hover {
+    color: #a5a5a5;
+}
+
+.banner {
+    background-image: url('src/img/SiteBanner.jpg');
+    background-position: center -150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #e1e1e1;
+    text-align: center;
+    padding: 100px 20px;
+    height: 400px;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #930707;
+    color: #e1e1e1;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background-color: #6e0000;
+}
+
+.text-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #e1e1e1;
+}
+
+.text-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.content {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.column {
+    display: grid;
+    gap: 20px;
+}
+
+.column-item {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.ceo-portrait {
+    width: 50%;
+}

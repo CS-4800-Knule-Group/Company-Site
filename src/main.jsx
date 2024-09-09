@@ -3,12 +3,13 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
-import Records from './assets/Pages/Records.jsx'
+import Records from './Pages/Records.jsx'
+import Header from './Components/Header.jsx'
 
 const Layout = () => {
   return (
     <div>
-      <header>Header here</header>
+      <Header/>
       <Outlet/>
     </div>
   )
