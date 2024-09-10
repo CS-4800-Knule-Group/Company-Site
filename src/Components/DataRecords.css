@@ -1,0 +1,35 @@
+table, th, td{
+    border: 2px solid;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #930707;
+}
+
+th{
+    text-align: left;
+    color:aliceblue;
+    border-color: black;
+}
+
+td{
+    text-align: center;
+    color:aliceblue;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.columns{
+    columns: md -10px;
+    columns: mb 3px;
+    columns: mt -3px;
+}
+.dataRecordText{
+    color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
