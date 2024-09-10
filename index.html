@@ -1,13 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Knule Group</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knulle Group</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+        <img src="logo.png" alt="Logo" class="logo">
+            <nav class="top-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Records</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-content">
+            <h1>We are Knulle</h1>
+            <p>The future of social media.</p>
+            <a href="#" class="cta-button">Meeting Records</a>
+        </div>
+    </section>
+
+    <main class="grid-container">
+        <div class="column">
+            <div class="column-item">
+                <h2>OUR PRODUCT</h2>
+                <p>Knulle: The App.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="column-item">
+                <h2>A MESSAGE FROM OUR CEO:</h2>
+                <img class="ceo-portrait" src="src/img/CEOPortrait.png" alt="CEO Portrait">
+                <p>We have another meeting today.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
 </html>
