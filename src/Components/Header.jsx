@@ -17,8 +17,11 @@ const Header = () => {
                 <Link to={'/Records'}>
                     <a href="#">Records</a>
                 </Link>
+                <Link to={'/Contact'}>
+                    <a href="#">Contact</a>
+                    </Link>
 
-                <a href="#">Contact</a>
+                
             </nav>
         </div>
     </header>
