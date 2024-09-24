@@ -10,7 +10,9 @@ function App() {
     		<div class="banner-content">
 	    		<h1>We are Knulle</h1>
     			<p>The future of social media.</p>
-			    <a href="#" class="cta-button">Meeting Records</a>
+                <Link to={'/records'}>
+			        <a class="cta-button">Meeting Records</a>
+                </Link>
 		    </div>
 	    </section>
     
