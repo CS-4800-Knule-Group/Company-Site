@@ -1,0 +1,55 @@
+.intro {
+    
+    font-family: Arial, sans-serif;
+    color: #f9f5f5;
+    text-align: center;
+}
+
+.title-one{
+    color: #f9f5f5;
+}
+
+.address{
+    color: #f9f5f5;
+}
+
+.address-two{
+    color: #f9f5f5;
+}
+
+.address-three{
+    padding: 0px 0px 50px 0;
+    color: #f9f5f5;
+}
+
+.title-two{
+    color: #f9f5f5;
+}
+
+.email{
+    
+    color: #f9f5f5;
+}
+
+.number{
+    padding: 0px 0px 50px 0;
+    color: #f9f5f5;
+}
+
+.FAQ{
+    color: #f9f5f5;
+}
+
+.link{
+    padding: 0px 0px 50px 0;
+    color: #f9f5f5;
+}
+
+.title-three{
+    color: #f9f5f5;
+}
+
+.form{
+
+    color: #f9f5f5;
+}

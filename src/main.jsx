@@ -7,6 +7,7 @@ import Records from './Pages/Records.jsx'
 import Header from './Components/Header.jsx'
 import Footer from './Components/Footer.jsx'
 import About from './Pages/About.jsx'
+import Contact from './Pages/Contact.jsx'
 
 const Layout = () => {
   return (
@@ -34,8 +35,12 @@ const router = createBrowserRouter([{
     {
       path: "/about",
       element: <About/>,
+    },
+    {
+      path: "/contact",
+      element: <Contact/>,
     }
-
+    
   ]
   
 }])
